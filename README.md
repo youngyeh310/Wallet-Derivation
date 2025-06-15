@@ -207,17 +207,14 @@ pip install -r requirements.txt
 * **备份重要**: 请及时备份生成的钱包信息文件
 * **测试优先**: 在处理重要助记词前，请先使用测试数据验证工具功能
 
-### 🐛 故障排除
-
 **常见问题及解决方案：**
 
-1. **模块导入错误**
+1. **模块导入**
 
    ```bash
    pip install --upgrade pip
    pip install -r requirements.txt
-   ```
-
+   ``
 2. **助记词验证失败**
 
    * 检查助记词单词数量（应为12或24个）
