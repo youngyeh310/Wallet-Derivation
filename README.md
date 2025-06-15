@@ -1,5 +1,14 @@
 # Mnemonic Wallet Generator
 
+## Language / 语言选择
+
+**Choose your language / 选择语言:**
+
+- [🇺🇸 English](#english)
+- [🇨🇳 中文](#中文)
+
+---
+
 ## English
 
 ### 📖 Project Description
@@ -29,7 +38,7 @@ Before running the script, please ensure the following Python libraries are inst
 
 ```bash
 pip install mnemonic solders base58 pandas eth-account bip32utils
-````
+```
 
 Or install all at once using:
 
@@ -119,6 +128,9 @@ The generated CSV file contains the following fields:
 * **License**: MIT License
 
 ---
+
+## 中文
+
 ### 📖 项目简介
 
 这是一个功能强大的助记词批量钱包生成器，支持同时生成 Solana (SOL) 和 Ethereum (ETH) 钱包地址。工具基于 BIP-39 标准，能够从助记词安全地派生出对应的钱包地址和私钥。
@@ -207,6 +219,8 @@ pip install -r requirements.txt
 * **备份重要**: 请及时备份生成的钱包信息文件
 * **测试优先**: 在处理重要助记词前，请先使用测试数据验证工具功能
 
+### 🐛 常见问题
+
 **常见问题及解决方案：**
 
 1. **模块导入**
@@ -214,7 +228,8 @@ pip install -r requirements.txt
    ```bash
    pip install --upgrade pip
    pip install -r requirements.txt
-   ``
+   ```
+
 2. **助记词验证失败**
 
    * 检查助记词单词数量（应为12或24个）
@@ -232,3 +247,6 @@ pip install -r requirements.txt
 * **版本**: 2025 助记词钱包生成版
 * **许可证**: MIT License
 
+---
+
+**[⬆️ Back to Top / 返回顶部](#mnemonic-wallet-generator)**
