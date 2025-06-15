@@ -92,9 +92,9 @@ The generated CSV file contains the following fields:
 
 ### 🐛 Troubleshooting
 
-**Common Issues and Solutions:**
+**Common Solutions:**
 
-1. **Module Import Error**
+1. **Module Import**
 
    ```bash
    pip install --upgrade pip
