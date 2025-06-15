@@ -1,0 +1,5 @@
+mnemonic
+solders
+pandas
+eth-account
+bip32utils
