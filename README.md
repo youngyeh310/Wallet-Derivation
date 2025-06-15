@@ -1,8 +1,7 @@
-# Mnemonic Wallet Generator
 
-## Language / 语言选择
+## Language / 
 
-**Choose your language / 选择语言:**
+**Choose your language **
 
 - [🇺🇸 English](#english)
 - [🇨🇳 中文](#中文)
@@ -57,7 +56,7 @@ pip install -r requirements.txt
 2. **Run Script**
 
    ```bash
-   python wallet_generator.py
+   python main.py
    ```
 
 3. **View Results**
@@ -177,7 +176,7 @@ pip install -r requirements.txt
 2. **运行脚本**
 
    ```bash
-   python wallet_generator.py
+   python main.py
    ```
 
 3. **查看结果**
